@@ -1,0 +1,2 @@
+VMName,SMBIOS.AssetTag,ESX,vCPUCount,vRAMSizeGB,vDiskSizeGB,DiskType,Datastore,Version,Network,GuestID,Description,Location,ISODatastore,ISO
+vmname,123456,host.esx,2,6,60,Thin,datastore,v10,NetworkName,otherGuest64,MyVM,Folder,Datastore,ISOFile
