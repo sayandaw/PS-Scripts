@@ -64,3 +64,6 @@ $deletes = $ovdisks | Out-GridView -Title "Select vDisks to delete" -OutputMode 
 $deletes | %{
 ri $_ -Force -Verbose
 }
+
+
+Get-PvsDiskInfo | select name, devicecount, writecachetype | Out-GridView -Title "Select vDisks to delete" -OutputMode Multiple
